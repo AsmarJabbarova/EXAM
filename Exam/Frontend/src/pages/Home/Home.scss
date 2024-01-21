@@ -1,0 +1,181 @@
+.mainHome {
+
+
+
+    .section1 {
+        .title {
+            .wel {
+                h1 {
+                    font-size: 100px;
+                }
+
+            }
+
+            .lore {
+                font-size: 30px;
+            }
+
+            display: flex;
+            flex-direction: column;
+            height: 800px;
+            justify-content: center;
+
+            color: white;
+            height: 800px;
+            background: url(https://preview.colorlib.com/theme/eatwell/images/bg_3.jpg);
+        }
+
+        .butto {
+
+
+            .wel {
+                background-color: rgba(0, 0, 0, 0);
+                height: 61px;
+                width: 200px;
+                font-size: 20px;
+                color: white;
+                border-radius: 1px solid black;
+
+            }
+        }
+    }
+
+    .section2 {
+        display: flex;
+
+
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .salam {
+                h1 {
+                    font-size: 70px;
+                }
+            }
+
+            .story {
+                font-size: 20px;
+            }
+
+            .more {
+                height: 50px;
+            }
+        }
+
+        .right {
+            img {
+                height: 400px;
+            }
+        }
+    }
+
+    .section3 {
+        background-color: f8f9fa;
+
+        .basliq {
+            display: flex;
+            flex-direction: column;
+
+            .ou {
+                font-size: 20px;
+            }
+
+            .our {
+                h1 {
+                    font-size: 90px;
+                    // color: orange;
+                }
+            }
+        }
+
+        .filterr {
+            display: flex;
+            justify-content: center;
+            height: 50px;
+
+            button {
+                width: 100px;
+                background-color: orange;
+                color: white;
+            }
+        }
+
+        .cardss {
+            display: flex;
+            flex-wrap: wrap;
+
+            .kart {
+                height: 460px;
+                width: 350px;
+                border: 1px solid black;
+
+                .img {
+                    width: 350px;
+                    height: 250px;
+                }
+
+                .alt {
+                    display: flex;
+                    flex-direction: column;
+
+                    .price {
+                        color: orange;
+                        font-size: 30px;
+                    }
+
+                    .name {
+                        font-size: 30px;
+                    }
+
+                    .desc {
+                        font-size: 15px;
+                    }
+                }
+
+                .delBut {
+                    display: flex;
+                    justify-content: center;
+                    height: 48px;
+
+                    button {
+                        background-color: orange;
+                        color: white;
+                        width: 100px;
+                        border-radius: 1px solid orange;
+                    }
+                }
+            }
+        }
+    }
+
+    .section4 {
+        .title4 {
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+
+        .picture {
+            padding: 160px;
+            display: flex;
+            flex-wrap: wrap;
+
+            .pic {
+                height: 500px;
+                width: 400px;
+
+                img {
+                    height: 500px;
+                    width: 400px;
+                }
+            }
+        }
+
+    }
+
+}

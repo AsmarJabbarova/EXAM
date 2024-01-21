@@ -1,0 +1,36 @@
+.kart {
+    height: 460px;
+    width: 350px;
+    border: 1px solid black;
+
+    .img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .alt {
+        display: flex;
+        flex-direction: column;
+
+        .price {
+            color: orange;
+            font-size: 30px;
+        }
+
+        .name {
+            font-size: 30px;
+        }
+
+        .desc {
+            font-size: 15px;
+        }
+    }
+
+    .delBut {
+        display: flex;
+        justify-content: center;
+        height: 48px;
+
+
+    }
+}
